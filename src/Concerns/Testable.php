@@ -233,9 +233,9 @@ trait Testable
             $afterEach = ChainableClosure::bound($this->__afterEach, $afterEach);
         }
 
-        $this->__callClosure($afterEach, func_get_args());
-
         parent::tearDown();
+
+        $this->__callClosure($afterEach, func_get_args());
 
         TestSuite::getInstance()->test = null;
     }
