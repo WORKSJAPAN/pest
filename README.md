@@ -21,18 +21,18 @@ We cannot thank our sponsors enough for their incredible support in funding Pest
 
 ### Platinum Sponsors
 
+- **[LaraJobs](https://larajobs.com)**
+- **[Brokerchooser](https://brokerchooser.com)**
 - **[Forge](https://forge.laravel.com)**
-- **[LoadForge](https://loadforge.com)**
 - **[Spatie](https://spatie.be)**
 - **[Worksome](https://www.worksome.com/)**
 
 ### Premium Sponsors
 
-- [Akaunting](https://akaunting.com)
-- [Codecourse](https://codecourse.com/)
-- [Laracasts](https://laracasts.com/)
-- [Localazy](https://localazy.com)
-- [Meema](https://meema.io)
-- [Zapiet](https://www.zapiet.com)
+- [Akaunting](https://akaunting.com/?ref=pestphp)
+- [Codecourse](https://codecourse.com/?ref=pestphp)
+- [Laracasts](https://laracasts.com/?ref=pestphp)
+- [Localazy](https://localazy.com/?ref=pestphp)
+- [Zapiet](https://www.zapiet.com/?ref=pestphp)
 
 Pest is an open-sourced software licensed under the **[MIT license](https://opensource.org/licenses/MIT)**.

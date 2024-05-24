@@ -1,5 +1,5 @@
 
-  Pest Testing Framework 2.24.0.  
+  Pest Testing Framework 2.34.7.  
 
   USAGE: pest <file> [options]  
 
@@ -38,7 +38,6 @@
   EXECUTION OPTIONS:
   --parallel ........................................... Run tests in parallel  
   --update-snapshots  Update snapshots for tests using the "toMatchSnapshot" expectation  
-  --process-isolation ................ Run each test in a separate PHP process  
   --globals-backup ................. Backup and restore $GLOBALS for each test  
   --static-backup ......... Backup and restore static properties for each test  
   --strict-coverage ................... Be strict about code coverage metadata  
@@ -56,6 +55,7 @@
   --stop-on-notice ............. Stop after first test that triggered a notice  
   --stop-on-skipped ............................ Stop after first skipped test  
   --stop-on-incomplete ...................... Stop after first incomplete test  
+  --fail-on-empty-test-suite  Signal failure using shell exit code when no tests were run  
   --fail-on-warning  Signal failure using shell exit code when a warning was triggered  
   --fail-on-risky  Signal failure using shell exit code when a test was considered risky  
   --fail-on-deprecation  Signal failure using shell exit code when a deprecation was triggered  
@@ -84,6 +84,7 @@
   --reverse-list .............................. Print defects in reverse order  
   --teamcity . Replace default progress and result output with TeamCity format  
   --testdox ................ Replace default result output with TestDox format  
+  --debug  Replace default progress and result output with debugging information  
   --compact ................ Replace default result output with Compact format  
 
   LOGGING OPTIONS:
